@@ -139,3 +139,28 @@ body{
     color: var(--GreyNeutral400
     );
 }
+
+/* Responsive design */
+
+@media (width<700px) {
+    .contenedor{
+        min-width: 400px;
+        height: 100vh;
+
+    }
+
+    .titulo,
+    .subtitulo{
+        font-size: 1.8em;
+    }
+    
+    .descripcion{
+        width: 360px;
+        font-size: 1em ;
+    }
+
+    .diapositivas{
+        display: flex;
+        flex-direction: column;
+    }
+}
